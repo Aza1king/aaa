@@ -1,0 +1,33 @@
+
+.header{
+    background-color: #d1c76b;
+    color: white;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.header nav{
+    display: flex;
+    column-gap: 20px;
+}
+.header-logo{
+    color: blanchedalmond;
+}
+.link{
+    color: azure;
+}
+.link:hover{
+    color: #96ed70;
+    transition: 0.6s;
+}
